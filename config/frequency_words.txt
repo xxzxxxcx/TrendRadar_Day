@@ -1,6 +1,6 @@
 /AI|DeepSeek|Gemini|人工智能/ => AI
 
-/工作|就业|工资|社保/ => 工作
+/工作|就业|工资|银行|社保/ => 工作
 
 /\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
 
