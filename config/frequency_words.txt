@@ -1,17 +1,19 @@
-/AI|DeepSeek|Gemini|人工智能/ => AI
+/AI|Claude|Gemini|人工智能/ => AI
 
-/工作|就业|工资|银行|社保/ => 工作
+/工作|就业|失业|收入/ => 工作
 
 /\bchatgpt\b|\bopenai\b|\bsora\b/i => OpenAI
 
-/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
+/\bclaude\b|Anthropic/i => Claude
 
 /(?<![a-zA-Z])ai(?![a-zA-Z])/i => AI 
 
+/谷歌|\bgoogle\b|\bgemini\b|\bdeepMind\b/i => 谷歌
+
 /公务员|考公|研究生|考研|考编|编制/ => 编制
 
-/军事|科技|国家|政策|政治/ => 中国
+/军事|科技|国家|政策|政治|银行/ => 中国
 
 /中国|美国|日本|韩国|国际/ => 国际
 
-/社会|经济|消费|公告|告示|矛盾/ => 社会
+/社会|经济|消费|公告|告示|问题/ => 社会
